@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78D156ED1717FD8E00930549 /* kawarahenka_icon_144px.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D156EC1717FD8D00930549 /* kawarahenka_icon_144px.png */; };
+		78D156F31717FF9200930549 /* kidouGamen.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D156F21717FF9200930549 /* kidouGamen.png */; };
+		78D156F71718001100930549 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D156F61718001100930549 /* Default@2x.png */; };
+		78D156FB1718010600930549 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D156FA1718010600930549 /* Default-568h@2x.png */; };
+		78D156FD171803A900930549 /* mr_144px.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D156FC171803A900930549 /* mr_144px.png */; };
+		78D157011718050400930549 /* mr_114px.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D157001718050400930549 /* mr_114px.png */; };
 		B9091335135463B800339B18 /* ExampleApplicationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9091333135463B800339B18 /* ExampleApplicationViewController.xib */; };
 		B9091338135463C000339B18 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9091336135463C000339B18 /* MainWindow.xib */; };
 		B909133B1354641A00339B18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B90913391354641A00339B18 /* InfoPlist.strings */; };
@@ -83,6 +89,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78D156EC1717FD8D00930549 /* kawarahenka_icon_144px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kawarahenka_icon_144px.png; sourceTree = "<group>"; };
+		78D156F21717FF9200930549 /* kidouGamen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kidouGamen.png; sourceTree = "<group>"; };
+		78D156F61718001100930549 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		78D156FA1718010600930549 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		78D156FC171803A900930549 /* mr_144px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mr_144px.png; sourceTree = "<group>"; };
+		78D157001718050400930549 /* mr_114px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mr_114px.png; sourceTree = "<group>"; };
 		B9091334135463B800339B18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ExampleApplicationViewController.xib; sourceTree = "<group>"; };
 		B9091337135463C000339B18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = JunaioPluginTemplate/en.lproj/MainWindow.xib; sourceTree = SOURCE_ROOT; };
 		B909133A1354641A00339B18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -274,6 +286,12 @@
 		B99B652F132FA24200CEEBCC = {
 			isa = PBXGroup;
 			children = (
+				78D157001718050400930549 /* mr_114px.png */,
+				78D156FC171803A900930549 /* mr_144px.png */,
+				78D156FA1718010600930549 /* Default-568h@2x.png */,
+				78D156F61718001100930549 /* Default@2x.png */,
+				78D156F21717FF9200930549 /* kidouGamen.png */,
+				78D156EC1717FD8D00930549 /* kawarahenka_icon_144px.png */,
 				B91C22B8135866F1000032FB /* JunaioPlugin */,
 				B99B6548132FA24200CEEBCC /* Application */,
 				B99B653D132FA24200CEEBCC /* Frameworks */,
@@ -464,6 +482,12 @@
 				B93E707C16724D2300891BC3 /* Default-Portrait@2x.png in Resources */,
 				B93E707D16724D2300891BC3 /* Icon-72.png in Resources */,
 				B93E707E16724D2300891BC3 /* Icon-144.png in Resources */,
+				78D156ED1717FD8E00930549 /* kawarahenka_icon_144px.png in Resources */,
+				78D156F31717FF9200930549 /* kidouGamen.png in Resources */,
+				78D156F71718001100930549 /* Default@2x.png in Resources */,
+				78D156FB1718010600930549 /* Default-568h@2x.png in Resources */,
+				78D156FD171803A900930549 /* mr_144px.png in Resources */,
+				78D157011718050400930549 /* mr_114px.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,14 +589,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "JunaioPluginTemplate/JunaioPluginTemplate-Prefix.pch";
 				INFOPLIST_FILE = "JunaioPluginTemplate/JunaioPluginTemplate-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -589,14 +613,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "JunaioPluginTemplate/JunaioPluginTemplate-Prefix.pch";
 				INFOPLIST_FILE = "JunaioPluginTemplate/JunaioPluginTemplate-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

@@ -65,7 +65,7 @@
 		// set locationAtStartup to NO, because we don't need a location for the first request
 		// This is the default for all AREL XML channels that don't provide location based content
 		m_useLocationAtStartup = NO;
-		return 124471;		// AREL Soccer Shootout channel
+		return 127401;		// AREL Soccer Shootout channel
 	}
 }
 
