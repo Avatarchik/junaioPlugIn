@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78D156ED1717FD8E00930549 /* kawarahenka_icon_144px.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D156EC1717FD8D00930549 /* kawarahenka_icon_144px.png */; };
+		78D156F31717FF9200930549 /* kidouGamen.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D156F21717FF9200930549 /* kidouGamen.png */; };
+		78D156F71718001100930549 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D156F61718001100930549 /* Default@2x.png */; };
+		78D156FB1718010600930549 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D156FA1718010600930549 /* Default-568h@2x.png */; };
+		78D157011718050400930549 /* mr_114px.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D157001718050400930549 /* mr_114px.png */; };
+		78D157161718229900930549 /* mr_144px.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D156FC171803A900930549 /* mr_144px.png */; };
+		78D15718171822D000930549 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D15717171822D000930549 /* Default-Portrait@2x~ipad.png */; };
+		B9091335135463B800339B18 /* ExampleApplicationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9091333135463B800339B18 /* ExampleApplicationViewController.xib */; };
+		B9091338135463C000339B18 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9091336135463C000339B18 /* MainWindow.xib */; };
+		B909133B1354641A00339B18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B90913391354641A00339B18 /* InfoPlist.strings */; };
+		B914BD2413683F4C00384A65 /* JunaioPlugin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B914BD2313683F4C00384A65 /* JunaioPlugin.bundle */; };
+		B9215160167118E90015AC95 /* btnBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215144167118E90015AC95 /* btnBlue.png */; };
+		B9215161167118E90015AC95 /* btnBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215145167118E90015AC95 /* btnBlue@2x.png */; };
+		B9215162167118E90015AC95 /* btnBlueAct.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215146167118E90015AC95 /* btnBlueAct.png */; };
+		B9215163167118E90015AC95 /* btnBlueAct@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215147167118E90015AC95 /* btnBlueAct@2x.png */; };
+		B9215164167118E90015AC95 /* btnDkGray.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215148167118E90015AC95 /* btnDkGray.png */; };
+		B9215165167118E90015AC95 /* btnDkGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215149167118E90015AC95 /* btnDkGray@2x.png */; };
+		B9215166167118E90015AC95 /* btnDkGrayAct.png in Resources */ = {isa = PBXBuildFile; fileRef = B921514A167118E90015AC95 /* btnDkGrayAct.png */; };
+		B9215167167118E90015AC95 /* btnDkGrayAct@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B921514B167118E90015AC95 /* btnDkGrayAct@2x.png */; };
+		B9215168167118E90015AC95 /* btnWebBack.png in Resources */ = {isa = PBXBuildFile; fileRef = B921514C167118E90015AC95 /* btnWebBack.png */; };
+		B9215169167118E90015AC95 /* btnWebBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B921514D167118E90015AC95 /* btnWebBack@2x.png */; };
+		B921516A167118E90015AC95 /* btnWebBackAct.png in Resources */ = {isa = PBXBuildFile; fileRef = B921514E167118E90015AC95 /* btnWebBackAct.png */; };
+		B921516B167118E90015AC95 /* btnWebBackAct@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B921514F167118E90015AC95 /* btnWebBackAct@2x.png */; };
+		B921516C167118E90015AC95 /* btnWebClose.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215150167118E90015AC95 /* btnWebClose.png */; };
+		B921516D167118E90015AC95 /* btnWebClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215151167118E90015AC95 /* btnWebClose@2x.png */; };
+		B921516E167118E90015AC95 /* btnWebCloseAct.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215152167118E90015AC95 /* btnWebCloseAct.png */; };
+		B921516F167118E90015AC95 /* btnWebCloseAct@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215153167118E90015AC95 /* btnWebCloseAct@2x.png */; };
+		B9215170167118E90015AC95 /* btnWebForward.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215154167118E90015AC95 /* btnWebForward.png */; };
+		B9215171167118E90015AC95 /* btnWebForward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215155167118E90015AC95 /* btnWebForward@2x.png */; };
+		B9215172167118E90015AC95 /* btnWebForwardAct.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215156167118E90015AC95 /* btnWebForwardAct.png */; };
+		B9215173167118E90015AC95 /* btnWebForwardAct@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215157167118E90015AC95 /* btnWebForwardAct@2x.png */; };
+		B9215174167118E90015AC95 /* btnWebReload.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215158167118E90015AC95 /* btnWebReload.png */; };
+		B9215175167118E90015AC95 /* btnWebReload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9215159167118E90015AC95 /* btnWebReload@2x.png */; };
+		B9215176167118E90015AC95 /* btnWebReloadAct.png in Resources */ = {isa = PBXBuildFile; fileRef = B921515A167118E90015AC95 /* btnWebReloadAct.png */; };
+		B9215177167118E90015AC95 /* btnWebReloadAct@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B921515B167118E90015AC95 /* btnWebReloadAct@2x.png */; };
+		B9215178167118E90015AC95 /* btnWebStop.png in Resources */ = {isa = PBXBuildFile; fileRef = B921515C167118E90015AC95 /* btnWebStop.png */; };
+		B9215179167118E90015AC95 /* btnWebStop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B921515D167118E90015AC95 /* btnWebStop@2x.png */; };
+		B921517A167118E90015AC95 /* btnWebStopAct.png in Resources */ = {isa = PBXBuildFile; fileRef = B921515E167118E90015AC95 /* btnWebStopAct.png */; };
+		B921517B167118E90015AC95 /* btnWebStopAct@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B921515F167118E90015AC95 /* btnWebStopAct@2x.png */; };
+		B921517E167119050015AC95 /* bottomBarWebview.png in Resources */ = {isa = PBXBuildFile; fileRef = B921517C167119050015AC95 /* bottomBarWebview.png */; };
+		B921517F167119050015AC95 /* bottomBarWebview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B921517D167119050015AC95 /* bottomBarWebview@2x.png */; };
+		B93E707916724D2300891BC3 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = B93E707316724D2300891BC3 /* Default-Landscape.png */; };
+		B93E707A16724D2300891BC3 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B93E707416724D2300891BC3 /* Default-Landscape@2x.png */; };
+		B93E707B16724D2300891BC3 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = B93E707516724D2300891BC3 /* Default-Portrait.png */; };
+		B93E707C16724D2300891BC3 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B93E707616724D2300891BC3 /* Default-Portrait@2x.png */; };
+		B93E707D16724D2300891BC3 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B93E707716724D2300891BC3 /* Icon-72.png */; };
+		B93E707E16724D2300891BC3 /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = B93E707816724D2300891BC3 /* Icon-144.png */; };
+		B96CC6F716DBC35500214D2D /* JunaioPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96CC6F616DBC35500214D2D /* JunaioPlugin.framework */; };
+		B988F764136EEEFC00CDFD3B /* WebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B988F763136EEEFC00CDFD3B /* WebViewViewController.xib */; };
+		B98A649E15D11AB800DAFF38 /* ASIHTTPRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98A649D15D11AB800DAFF38 /* ASIHTTPRequest.framework */; };
+		B99B653F132FA24200CEEBCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B653E132FA24200CEEBCC /* UIKit.framework */; };
+		B99B6541132FA24200CEEBCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B6540132FA24200CEEBCC /* Foundation.framework */; };
+		B99B6543132FA24200CEEBCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B6542132FA24200CEEBCC /* CoreGraphics.framework */; };
+		B99B6545132FA24200CEEBCC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B6544132FA24200CEEBCC /* QuartzCore.framework */; };
+		B99B6547132FA24200CEEBCC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B6546132FA24200CEEBCC /* OpenGLES.framework */; };
+		B99B6550132FA24200CEEBCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B99B654F132FA24200CEEBCC /* main.m */; };
+		B99B6553132FA24200CEEBCC /* JunaioPluginTemplateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B99B6552132FA24200CEEBCC /* JunaioPluginTemplateAppDelegate.m */; };
+		B99B6560132FA24200CEEBCC /* ExampleApplicationViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B99B655F132FA24200CEEBCC /* ExampleApplicationViewController.mm */; };
+		B99B656E132FA3E700CEEBCC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B99B656A132FA3E700CEEBCC /* Default.png */; };
+		B99B656F132FA3E700CEEBCC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B99B656B132FA3E700CEEBCC /* Default@2x.png */; };
+		B99B6574132FA50B00CEEBCC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B99B6572132FA50B00CEEBCC /* Icon.png */; };
+		B99B6575132FA50B00CEEBCC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B99B6573132FA50B00CEEBCC /* Icon@2x.png */; };
+		B99B65AD132FADE500CEEBCC /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B65AC132FADE500CEEBCC /* libxml2.dylib */; };
+		B99B65AF132FADFA00CEEBCC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B65AE132FADFA00CEEBCC /* CoreLocation.framework */; };
+		B99B65B1132FAE0000CEEBCC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B65B0132FAE0000CEEBCC /* CoreMotion.framework */; };
+		B99B65B5132FAE1400CEEBCC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B65B4132FAE1400CEEBCC /* AVFoundation.framework */; };
+		B99B65B8132FAE2400CEEBCC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B65B6132FAE2400CEEBCC /* CoreMedia.framework */; };
+		B99B65B9132FAE2400CEEBCC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B65B7132FAE2400CEEBCC /* MediaPlayer.framework */; };
+		B99B65BB132FAE3D00CEEBCC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B65BA132FAE3D00CEEBCC /* MapKit.framework */; };
+		B99B65C1132FAEE400CEEBCC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B65C0132FAEE400CEEBCC /* Security.framework */; };
+		B99B65C3132FAEED00CEEBCC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B65C2132FAEED00CEEBCC /* AudioToolbox.framework */; };
+		B99B663C132FB13100CEEBCC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B663B132FB13100CEEBCC /* CFNetwork.framework */; };
+		B99B663E132FB15200CEEBCC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B663D132FB15200CEEBCC /* libz.dylib */; };
+		B99B6640132FB17200CEEBCC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B663F132FB17200CEEBCC /* MobileCoreServices.framework */; };
+		B99B6644132FB1E900CEEBCC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B6643132FB1E900CEEBCC /* SystemConfiguration.framework */; };
+		B99B6646132FB48B00CEEBCC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B6645132FB48B00CEEBCC /* CoreVideo.framework */; };
+		B9D02C4F13EC35C600246DB6 /* ARViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9D02C4D13EC35C600246DB6 /* ARViewController.mm */; };
+		B9D02C5013EC35C600246DB6 /* ARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9D02C4E13EC35C600246DB6 /* ARViewController.xib */; };
+		B9DA553D137D863B00602C9D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9DA553B137D863B00602C9D /* Localizable.strings */; };
+		B9DB73271609F9F000327396 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9DB73261609F9F000327396 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78D156EC1717FD8D00930549 /* kawarahenka_icon_144px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kawarahenka_icon_144px.png; sourceTree = "<group>"; };
+		78D156F21717FF9200930549 /* kidouGamen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kidouGamen.png; sourceTree = "<group>"; };
+		78D156F61718001100930549 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		78D156FA1718010600930549 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		78D156FC171803A900930549 /* mr_144px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mr_144px.png; sourceTree = "<group>"; };
+		78D157001718050400930549 /* mr_114px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mr_114px.png; sourceTree = "<group>"; };
+		78D15717171822D000930549 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		B9091334135463B800339B18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ExampleApplicationViewController.xib; sourceTree = "<group>"; };
+		B9091337135463C000339B18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = JunaioPluginTemplate/en.lproj/MainWindow.xib; sourceTree = SOURCE_ROOT; };
+		B909133A1354641A00339B18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B914BD2313683F4C00384A65 /* JunaioPlugin.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JunaioPlugin.bundle; sourceTree = "<group>"; };
+		B91BE8DC137C168E00D05254 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B9215144167118E90015AC95 /* btnBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnBlue.png; sourceTree = "<group>"; };
+		B9215145167118E90015AC95 /* btnBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnBlue@2x.png"; sourceTree = "<group>"; };
+		B9215146167118E90015AC95 /* btnBlueAct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnBlueAct.png; sourceTree = "<group>"; };
+		B9215147167118E90015AC95 /* btnBlueAct@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnBlueAct@2x.png"; sourceTree = "<group>"; };
+		B9215148167118E90015AC95 /* btnDkGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnDkGray.png; sourceTree = "<group>"; };
+		B9215149167118E90015AC95 /* btnDkGray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnDkGray@2x.png"; sourceTree = "<group>"; };
+		B921514A167118E90015AC95 /* btnDkGrayAct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnDkGrayAct.png; sourceTree = "<group>"; };
+		B921514B167118E90015AC95 /* btnDkGrayAct@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnDkGrayAct@2x.png"; sourceTree = "<group>"; };
+		B921514C167118E90015AC95 /* btnWebBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnWebBack.png; sourceTree = "<group>"; };
+		B921514D167118E90015AC95 /* btnWebBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnWebBack@2x.png"; sourceTree = "<group>"; };
+		B921514E167118E90015AC95 /* btnWebBackAct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnWebBackAct.png; sourceTree = "<group>"; };
+		B921514F167118E90015AC95 /* btnWebBackAct@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnWebBackAct@2x.png"; sourceTree = "<group>"; };
+		B9215150167118E90015AC95 /* btnWebClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnWebClose.png; sourceTree = "<group>"; };
+		B9215151167118E90015AC95 /* btnWebClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnWebClose@2x.png"; sourceTree = "<group>"; };
+		B9215152167118E90015AC95 /* btnWebCloseAct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnWebCloseAct.png; sourceTree = "<group>"; };
+		B9215153167118E90015AC95 /* btnWebCloseAct@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnWebCloseAct@2x.png"; sourceTree = "<group>"; };
+		B9215154167118E90015AC95 /* btnWebForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnWebForward.png; sourceTree = "<group>"; };
+		B9215155167118E90015AC95 /* btnWebForward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnWebForward@2x.png"; sourceTree = "<group>"; };
+		B9215156167118E90015AC95 /* btnWebForwardAct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnWebForwardAct.png; sourceTree = "<group>"; };
+		B9215157167118E90015AC95 /* btnWebForwardAct@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnWebForwardAct@2x.png"; sourceTree = "<group>"; };
+		B9215158167118E90015AC95 /* btnWebReload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnWebReload.png; sourceTree = "<group>"; };
+		B9215159167118E90015AC95 /* btnWebReload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnWebReload@2x.png"; sourceTree = "<group>"; };
+		B921515A167118E90015AC95 /* btnWebReloadAct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnWebReloadAct.png; sourceTree = "<group>"; };
+		B921515B167118E90015AC95 /* btnWebReloadAct@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnWebReloadAct@2x.png"; sourceTree = "<group>"; };
+		B921515C167118E90015AC95 /* btnWebStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnWebStop.png; sourceTree = "<group>"; };
+		B921515D167118E90015AC95 /* btnWebStop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnWebStop@2x.png"; sourceTree = "<group>"; };
+		B921515E167118E90015AC95 /* btnWebStopAct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnWebStopAct.png; sourceTree = "<group>"; };
+		B921515F167118E90015AC95 /* btnWebStopAct@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnWebStopAct@2x.png"; sourceTree = "<group>"; };
+		B921517C167119050015AC95 /* bottomBarWebview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottomBarWebview.png; sourceTree = "<group>"; };
+		B921517D167119050015AC95 /* bottomBarWebview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottomBarWebview@2x.png"; sourceTree = "<group>"; };
+		B93E707316724D2300891BC3 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		B93E707416724D2300891BC3 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		B93E707516724D2300891BC3 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		B93E707616724D2300891BC3 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		B93E707716724D2300891BC3 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		B93E707816724D2300891BC3 /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-144.png"; sourceTree = "<group>"; };
+		B96CC6F616DBC35500214D2D /* JunaioPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JunaioPlugin.framework; sourceTree = "<group>"; };
+		B988F763136EEEFC00CDFD3B /* WebViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WebViewViewController.xib; path = JunaioPluginTemplate/JunaioPlugin/Resources/WebViewViewController.xib; sourceTree = SOURCE_ROOT; };
+		B98A649D15D11AB800DAFF38 /* ASIHTTPRequest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ASIHTTPRequest.framework; sourceTree = "<group>"; };
+		B99B653A132FA24200CEEBCC /* Junaio App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Junaio App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99B653E132FA24200CEEBCC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B99B6540132FA24200CEEBCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B99B6542132FA24200CEEBCC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B99B6544132FA24200CEEBCC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B99B6546132FA24200CEEBCC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B99B654A132FA24200CEEBCC /* JunaioPluginTemplate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JunaioPluginTemplate-Info.plist"; sourceTree = "<group>"; };
+		B99B654E132FA24200CEEBCC /* JunaioPluginTemplate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JunaioPluginTemplate-Prefix.pch"; sourceTree = "<group>"; };
+		B99B654F132FA24200CEEBCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B99B6551132FA24200CEEBCC /* JunaioPluginTemplateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = JunaioPluginTemplateAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		B99B6552132FA24200CEEBCC /* JunaioPluginTemplateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = JunaioPluginTemplateAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B99B655E132FA24200CEEBCC /* ExampleApplicationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ExampleApplicationViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		B99B655F132FA24200CEEBCC /* ExampleApplicationViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = ExampleApplicationViewController.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		B99B656A132FA3E700CEEBCC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B99B656B132FA3E700CEEBCC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B99B6572132FA50B00CEEBCC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B99B6573132FA50B00CEEBCC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		B99B65AC132FADE500CEEBCC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		B99B65AE132FADFA00CEEBCC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B99B65B0132FAE0000CEEBCC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B99B65B2132FAE0900CEEBCC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B99B65B4132FAE1400CEEBCC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B99B65B6132FAE2400CEEBCC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B99B65B7132FAE2400CEEBCC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B99B65BA132FAE3D00CEEBCC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B99B65BC132FAE4C00CEEBCC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B99B65BE132FAE5900CEEBCC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B99B65C0132FAEE400CEEBCC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B99B65C2132FAEED00CEEBCC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B99B663B132FB13100CEEBCC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B99B663D132FB15200CEEBCC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B99B663F132FB17200CEEBCC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B99B6643132FB1E900CEEBCC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B99B6645132FB48B00CEEBCC /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B9D02C4C13EC35C600246DB6 /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		B9D02C4D13EC35C600246DB6 /* ARViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARViewController.mm; sourceTree = "<group>"; };
+		B9D02C4E13EC35C600246DB6 /* ARViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARViewController.xib; sourceTree = "<group>"; };
+		B9DA553C137D863B00602C9D /* de */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B9DA553E137D864300602C9D /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B9DB73261609F9F000327396 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B99B6537132FA24200CEEBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99B6646132FB48B00CEEBCC /* CoreVideo.framework in Frameworks */,
+				B99B6644132FB1E900CEEBCC /* SystemConfiguration.framework in Frameworks */,
+				B99B6640132FB17200CEEBCC /* MobileCoreServices.framework in Frameworks */,
+				B99B663E132FB15200CEEBCC /* libz.dylib in Frameworks */,
+				B99B663C132FB13100CEEBCC /* CFNetwork.framework in Frameworks */,
+				B99B65C3132FAEED00CEEBCC /* AudioToolbox.framework in Frameworks */,
+				B99B65C1132FAEE400CEEBCC /* Security.framework in Frameworks */,
+				B99B65BB132FAE3D00CEEBCC /* MapKit.framework in Frameworks */,
+				B99B65B8132FAE2400CEEBCC /* CoreMedia.framework in Frameworks */,
+				B99B65B9132FAE2400CEEBCC /* MediaPlayer.framework in Frameworks */,
+				B99B65B5132FAE1400CEEBCC /* AVFoundation.framework in Frameworks */,
+				B99B65B1132FAE0000CEEBCC /* CoreMotion.framework in Frameworks */,
+				B99B65AF132FADFA00CEEBCC /* CoreLocation.framework in Frameworks */,
+				B99B65AD132FADE500CEEBCC /* libxml2.dylib in Frameworks */,
+				B99B653F132FA24200CEEBCC /* UIKit.framework in Frameworks */,
+				B99B6541132FA24200CEEBCC /* Foundation.framework in Frameworks */,
+				B99B6543132FA24200CEEBCC /* CoreGraphics.framework in Frameworks */,
+				B99B6545132FA24200CEEBCC /* QuartzCore.framework in Frameworks */,
+				B99B6547132FA24200CEEBCC /* OpenGLES.framework in Frameworks */,
+				B98A649E15D11AB800DAFF38 /* ASIHTTPRequest.framework in Frameworks */,
+				B96CC6F716DBC35500214D2D /* JunaioPlugin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B91C22B8135866F1000032FB /* JunaioPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				B96CC6F616DBC35500214D2D /* JunaioPlugin.framework */,
+				B98A649D15D11AB800DAFF38 /* ASIHTTPRequest.framework */,
+				B91C22B9135866F1000032FB /* Classes */,
+				B91C22C6135866F1000032FB /* Resources */,
+			);
+			name = JunaioPlugin;
+			path = JunaioPluginTemplate/JunaioPlugin;
+			sourceTree = "<group>";
+		};
+		B91C22B9135866F1000032FB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B9D02C4C13EC35C600246DB6 /* ARViewController.h */,
+				B9D02C4D13EC35C600246DB6 /* ARViewController.mm */,
+				B9D02C4E13EC35C600246DB6 /* ARViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B91C22C6135866F1000032FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B914BD2313683F4C00384A65 /* JunaioPlugin.bundle */,
+				B9DA553B137D863B00602C9D /* Localizable.strings */,
+				B9215143167118E90015AC95 /* images */,
+				B988F763136EEEFC00CDFD3B /* WebViewViewController.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B9215143167118E90015AC95 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B921517C167119050015AC95 /* bottomBarWebview.png */,
+				B921517D167119050015AC95 /* bottomBarWebview@2x.png */,
+				B9215144167118E90015AC95 /* btnBlue.png */,
+				B9215145167118E90015AC95 /* btnBlue@2x.png */,
+				B9215146167118E90015AC95 /* btnBlueAct.png */,
+				B9215147167118E90015AC95 /* btnBlueAct@2x.png */,
+				B9215148167118E90015AC95 /* btnDkGray.png */,
+				B9215149167118E90015AC95 /* btnDkGray@2x.png */,
+				B921514A167118E90015AC95 /* btnDkGrayAct.png */,
+				B921514B167118E90015AC95 /* btnDkGrayAct@2x.png */,
+				B921514C167118E90015AC95 /* btnWebBack.png */,
+				B921514D167118E90015AC95 /* btnWebBack@2x.png */,
+				B921514E167118E90015AC95 /* btnWebBackAct.png */,
+				B921514F167118E90015AC95 /* btnWebBackAct@2x.png */,
+				B9215150167118E90015AC95 /* btnWebClose.png */,
+				B9215151167118E90015AC95 /* btnWebClose@2x.png */,
+				B9215152167118E90015AC95 /* btnWebCloseAct.png */,
+				B9215153167118E90015AC95 /* btnWebCloseAct@2x.png */,
+				B9215154167118E90015AC95 /* btnWebForward.png */,
+				B9215155167118E90015AC95 /* btnWebForward@2x.png */,
+				B9215156167118E90015AC95 /* btnWebForwardAct.png */,
+				B9215157167118E90015AC95 /* btnWebForwardAct@2x.png */,
+				B9215158167118E90015AC95 /* btnWebReload.png */,
+				B9215159167118E90015AC95 /* btnWebReload@2x.png */,
+				B921515A167118E90015AC95 /* btnWebReloadAct.png */,
+				B921515B167118E90015AC95 /* btnWebReloadAct@2x.png */,
+				B921515C167118E90015AC95 /* btnWebStop.png */,
+				B921515D167118E90015AC95 /* btnWebStop@2x.png */,
+				B921515E167118E90015AC95 /* btnWebStopAct.png */,
+				B921515F167118E90015AC95 /* btnWebStopAct@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B99B652F132FA24200CEEBCC = {
+			isa = PBXGroup;
+			children = (
+				78D15717171822D000930549 /* Default-Portrait@2x~ipad.png */,
+				78D157001718050400930549 /* mr_114px.png */,
+				78D156FC171803A900930549 /* mr_144px.png */,
+				78D156FA1718010600930549 /* Default-568h@2x.png */,
+				78D156F61718001100930549 /* Default@2x.png */,
+				78D156F21717FF9200930549 /* kidouGamen.png */,
+				78D156EC1717FD8D00930549 /* kawarahenka_icon_144px.png */,
+				B91C22B8135866F1000032FB /* JunaioPlugin */,
+				B99B6548132FA24200CEEBCC /* Application */,
+				B99B653D132FA24200CEEBCC /* Frameworks */,
+				B99B653B132FA24200CEEBCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B99B653B132FA24200CEEBCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B99B653A132FA24200CEEBCC /* Junaio App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B99B653D132FA24200CEEBCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B99B663D132FB15200CEEBCC /* libz.dylib */,
+				B99B65AC132FADE500CEEBCC /* libxml2.dylib */,
+				B91BE8DC137C168E00D05254 /* MessageUI.framework */,
+				B99B6645132FB48B00CEEBCC /* CoreVideo.framework */,
+				B99B6643132FB1E900CEEBCC /* SystemConfiguration.framework */,
+				B99B663F132FB17200CEEBCC /* MobileCoreServices.framework */,
+				B99B663B132FB13100CEEBCC /* CFNetwork.framework */,
+				B99B65C2132FAEED00CEEBCC /* AudioToolbox.framework */,
+				B99B65C0132FAEE400CEEBCC /* Security.framework */,
+				B99B65BE132FAE5900CEEBCC /* MobileCoreServices.framework */,
+				B99B65BC132FAE4C00CEEBCC /* SystemConfiguration.framework */,
+				B99B65BA132FAE3D00CEEBCC /* MapKit.framework */,
+				B99B65B6132FAE2400CEEBCC /* CoreMedia.framework */,
+				B99B65B7132FAE2400CEEBCC /* MediaPlayer.framework */,
+				B99B65B4132FAE1400CEEBCC /* AVFoundation.framework */,
+				B99B65B2132FAE0900CEEBCC /* SystemConfiguration.framework */,
+				B99B65B0132FAE0000CEEBCC /* CoreMotion.framework */,
+				B99B65AE132FADFA00CEEBCC /* CoreLocation.framework */,
+				B99B653E132FA24200CEEBCC /* UIKit.framework */,
+				B99B6540132FA24200CEEBCC /* Foundation.framework */,
+				B99B6542132FA24200CEEBCC /* CoreGraphics.framework */,
+				B99B6544132FA24200CEEBCC /* QuartzCore.framework */,
+				B99B6546132FA24200CEEBCC /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B99B6548132FA24200CEEBCC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B99B655F132FA24200CEEBCC /* ExampleApplicationViewController.mm */,
+				B99B655E132FA24200CEEBCC /* ExampleApplicationViewController.h */,
+				B9091333135463B800339B18 /* ExampleApplicationViewController.xib */,
+				B99B6569132FA3E700CEEBCC /* Resources */,
+				B99B6549132FA24200CEEBCC /* Supporting Files */,
+			);
+			name = Application;
+			path = JunaioPluginTemplate;
+			sourceTree = "<group>";
+		};
+		B99B6549132FA24200CEEBCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B99B6551132FA24200CEEBCC /* JunaioPluginTemplateAppDelegate.h */,
+				B99B6552132FA24200CEEBCC /* JunaioPluginTemplateAppDelegate.m */,
+				B99B654A132FA24200CEEBCC /* JunaioPluginTemplate-Info.plist */,
+				B99B654E132FA24200CEEBCC /* JunaioPluginTemplate-Prefix.pch */,
+				B90913391354641A00339B18 /* InfoPlist.strings */,
+				B99B654F132FA24200CEEBCC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B99B6569132FA3E700CEEBCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B93E707316724D2300891BC3 /* Default-Landscape.png */,
+				B93E707416724D2300891BC3 /* Default-Landscape@2x.png */,
+				B93E707516724D2300891BC3 /* Default-Portrait.png */,
+				B93E707616724D2300891BC3 /* Default-Portrait@2x.png */,
+				B93E707716724D2300891BC3 /* Icon-72.png */,
+				B93E707816724D2300891BC3 /* Icon-144.png */,
+				B9091336135463C000339B18 /* MainWindow.xib */,
+				B99B6572132FA50B00CEEBCC /* Icon.png */,
+				B99B6573132FA50B00CEEBCC /* Icon@2x.png */,
+				B99B656A132FA3E700CEEBCC /* Default.png */,
+				B99B656B132FA3E700CEEBCC /* Default@2x.png */,
+				B9DB73261609F9F000327396 /* Default-568h@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B99B6539132FA24200CEEBCC /* Junaio App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B99B6566132FA24200CEEBCC /* Build configuration list for PBXNativeTarget "Junaio App" */;
+			buildPhases = (
+				B99B6536132FA24200CEEBCC /* Sources */,
+				B99B6537132FA24200CEEBCC /* Frameworks */,
+				B99B6538132FA24200CEEBCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Junaio App";
+			productName = JunaioPluginTemplate;
+			productReference = B99B653A132FA24200CEEBCC /* Junaio App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B99B6531132FA24200CEEBCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "metaio, Inc.";
+			};
+			buildConfigurationList = B99B6534132FA24200CEEBCC /* Build configuration list for PBXProject "JunaioPluginTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+			);
+			mainGroup = B99B652F132FA24200CEEBCC;
+			productRefGroup = B99B653B132FA24200CEEBCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B99B6539132FA24200CEEBCC /* Junaio App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B99B6538132FA24200CEEBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99B656E132FA3E700CEEBCC /* Default.png in Resources */,
+				B99B656F132FA3E700CEEBCC /* Default@2x.png in Resources */,
+				B99B6574132FA50B00CEEBCC /* Icon.png in Resources */,
+				B99B6575132FA50B00CEEBCC /* Icon@2x.png in Resources */,
+				B9091335135463B800339B18 /* ExampleApplicationViewController.xib in Resources */,
+				B9091338135463C000339B18 /* MainWindow.xib in Resources */,
+				B909133B1354641A00339B18 /* InfoPlist.strings in Resources */,
+				B914BD2413683F4C00384A65 /* JunaioPlugin.bundle in Resources */,
+				B988F764136EEEFC00CDFD3B /* WebViewViewController.xib in Resources */,
+				B9DA553D137D863B00602C9D /* Localizable.strings in Resources */,
+				B9D02C5013EC35C600246DB6 /* ARViewController.xib in Resources */,
+				B9DB73271609F9F000327396 /* Default-568h@2x.png in Resources */,
+				B9215160167118E90015AC95 /* btnBlue.png in Resources */,
+				B9215161167118E90015AC95 /* btnBlue@2x.png in Resources */,
+				B9215162167118E90015AC95 /* btnBlueAct.png in Resources */,
+				B9215163167118E90015AC95 /* btnBlueAct@2x.png in Resources */,
+				B9215164167118E90015AC95 /* btnDkGray.png in Resources */,
+				B9215165167118E90015AC95 /* btnDkGray@2x.png in Resources */,
+				B9215166167118E90015AC95 /* btnDkGrayAct.png in Resources */,
+				B9215167167118E90015AC95 /* btnDkGrayAct@2x.png in Resources */,
+				B9215168167118E90015AC95 /* btnWebBack.png in Resources */,
+				B9215169167118E90015AC95 /* btnWebBack@2x.png in Resources */,
+				B921516A167118E90015AC95 /* btnWebBackAct.png in Resources */,
+				B921516B167118E90015AC95 /* btnWebBackAct@2x.png in Resources */,
+				B921516C167118E90015AC95 /* btnWebClose.png in Resources */,
+				B921516D167118E90015AC95 /* btnWebClose@2x.png in Resources */,
+				B921516E167118E90015AC95 /* btnWebCloseAct.png in Resources */,
+				B921516F167118E90015AC95 /* btnWebCloseAct@2x.png in Resources */,
+				B9215170167118E90015AC95 /* btnWebForward.png in Resources */,
+				B9215171167118E90015AC95 /* btnWebForward@2x.png in Resources */,
+				B9215172167118E90015AC95 /* btnWebForwardAct.png in Resources */,
+				B9215173167118E90015AC95 /* btnWebForwardAct@2x.png in Resources */,
+				B9215174167118E90015AC95 /* btnWebReload.png in Resources */,
+				B9215175167118E90015AC95 /* btnWebReload@2x.png in Resources */,
+				B9215176167118E90015AC95 /* btnWebReloadAct.png in Resources */,
+				B9215177167118E90015AC95 /* btnWebReloadAct@2x.png in Resources */,
+				B9215178167118E90015AC95 /* btnWebStop.png in Resources */,
+				B9215179167118E90015AC95 /* btnWebStop@2x.png in Resources */,
+				B921517A167118E90015AC95 /* btnWebStopAct.png in Resources */,
+				B921517B167118E90015AC95 /* btnWebStopAct@2x.png in Resources */,
+				B921517E167119050015AC95 /* bottomBarWebview.png in Resources */,
+				B921517F167119050015AC95 /* bottomBarWebview@2x.png in Resources */,
+				B93E707916724D2300891BC3 /* Default-Landscape.png in Resources */,
+				B93E707A16724D2300891BC3 /* Default-Landscape@2x.png in Resources */,
+				B93E707B16724D2300891BC3 /* Default-Portrait.png in Resources */,
+				B93E707C16724D2300891BC3 /* Default-Portrait@2x.png in Resources */,
+				B93E707D16724D2300891BC3 /* Icon-72.png in Resources */,
+				B93E707E16724D2300891BC3 /* Icon-144.png in Resources */,
+				78D156ED1717FD8E00930549 /* kawarahenka_icon_144px.png in Resources */,
+				78D156F31717FF9200930549 /* kidouGamen.png in Resources */,
+				78D156F71718001100930549 /* Default@2x.png in Resources */,
+				78D156FB1718010600930549 /* Default-568h@2x.png in Resources */,
+				78D157011718050400930549 /* mr_114px.png in Resources */,
+				78D157161718229900930549 /* mr_144px.png in Resources */,
+				78D15718171822D000930549 /* Default-Portrait@2x~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B99B6536132FA24200CEEBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99B6550132FA24200CEEBCC /* main.m in Sources */,
+				B99B6553132FA24200CEEBCC /* JunaioPluginTemplateAppDelegate.m in Sources */,
+				B99B6560132FA24200CEEBCC /* ExampleApplicationViewController.mm in Sources */,
+				B9D02C4F13EC35C600246DB6 /* ARViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9091333135463B800339B18 /* ExampleApplicationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9091334135463B800339B18 /* en */,
+			);
+			name = ExampleApplicationViewController.xib;
+			sourceTree = "<group>";
+		};
+		B9091336135463C000339B18 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9091337135463C000339B18 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B90913391354641A00339B18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B909133A1354641A00339B18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9DA553B137D863B00602C9D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9DA553C137D863B00602C9D /* de */,
+				B9DA553E137D864300602C9D /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B99B6564132FA24200CEEBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B99B6565132FA24200CEEBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B99B6567132FA24200CEEBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/JunaioPluginTemplate/JunaioPlugin\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "JunaioPluginTemplate/JunaioPluginTemplate-Prefix.pch";
+				INFOPLIST_FILE = "JunaioPluginTemplate/JunaioPluginTemplate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B99B6568132FA24200CEEBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/JunaioPluginTemplate/JunaioPlugin\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "JunaioPluginTemplate/JunaioPluginTemplate-Prefix.pch";
+				INFOPLIST_FILE = "JunaioPluginTemplate/JunaioPluginTemplate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B99B6534132FA24200CEEBCC /* Build configuration list for PBXProject "JunaioPluginTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99B6564132FA24200CEEBCC /* Debug */,
+				B99B6565132FA24200CEEBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B99B6566132FA24200CEEBCC /* Build configuration list for PBXNativeTarget "Junaio App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99B6567132FA24200CEEBCC /* Debug */,
+				B99B6568132FA24200CEEBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B99B6531132FA24200CEEBCC /* Project object */;
+}
