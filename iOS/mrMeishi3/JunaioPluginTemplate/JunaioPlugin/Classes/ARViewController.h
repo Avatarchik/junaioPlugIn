@@ -16,4 +16,5 @@
 
 - (IBAction)onBtnClosePushed:(id)sender;
 
+@property (strong, nonatomic) UIWindow *window;
 @end

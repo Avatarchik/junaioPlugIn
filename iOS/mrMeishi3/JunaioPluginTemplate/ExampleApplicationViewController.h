@@ -14,4 +14,6 @@
 
 - (IBAction)onStartPushed:(id)sender;
 
+- (IBAction)onStartPushed2:(UIButton *)sender;
+
 @end

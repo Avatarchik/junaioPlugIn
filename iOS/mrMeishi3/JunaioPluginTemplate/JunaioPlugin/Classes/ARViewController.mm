@@ -8,6 +8,7 @@
 #import "ARViewController.h"
 
 @implementation ARViewController
+@synthesize window = _window;
 
 #pragma mark - View lifecycle
 
@@ -97,7 +98,53 @@
 }
 
 
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 
+{
+    // Override point for customization after application launch.
+    UIStoryboard *storyboard;   // StoryBoardの型宣言
+    NSString * storyBoardName;  // StoryBoardの名称設定用
+    
+    // 機種の取得
+    NSString *modelname = [ [ UIDevice currentDevice] model];
+    
+    // iPadかどうか判断する
+    if ( ![modelname hasPrefix:@"iPad"] )
+    {
+        // Windowスクリーンのサイズを取得
+        CGRect r = [[UIScreen mainScreen] bounds];
+        // 縦の長さが480の場合、古いiPhoneだと判定
+        
+        if(r.size.height == 480)
+        {
+            // NSLog(@"Old iPhone");
+            storyBoardName = @"MainStoryBoard_Old_iPhone";
+        }
+        else
+        {
+            // NSLog(@"New iPhone");
+            storyBoardName =@"MainStoryBoard_iPhone5";
+        }
+    }
+    else
+    {
+        // NSLog(@"iPad");
+        storyBoardName =@"MainStoryBoard_iPad";
+    }
+    
+    // StoryBoardのインスタンス化
+    storyboard = [UIStoryboard storyboardWithName:storyBoardName bundle:nil];
+    
+    // 画面の生成
+    UIViewController *mainViewController = [storyboard instantiateInitialViewController];
+    // ルートウィンドウにひっつける
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = mainViewController;
+    [self.window makeKeyAndVisible];
+    
+    return YES;
+    
+}
 ///** Optional
 // *
 // * return YES to cache downloaded files

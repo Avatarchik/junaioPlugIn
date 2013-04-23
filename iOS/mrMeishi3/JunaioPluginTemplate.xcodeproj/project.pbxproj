@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7869CA78172676B900D2CD23 /* MainStoryBoard_iPhone5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7869CA77172676B800D2CD23 /* MainStoryBoard_iPhone5.storyboard */; };
+		7869CA7A1726891600D2CD23 /* MainStoryBoard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7869CA791726891600D2CD23 /* MainStoryBoard_iPad.storyboard */; };
+		7869CA7C17268E1F00D2CD23 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7869CA7B17268E1F00D2CD23 /* Storyboard.storyboard */; };
 		78D1570F17181F9D00930549 /* app_title_splash_image2_640_960.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D1570C17181F9D00930549 /* app_title_splash_image2_640_960.png */; };
 		78D1571017181F9D00930549 /* kidouGamen_iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D1570D17181F9D00930549 /* kidouGamen_iphone5.png */; };
 		78D1571117181F9D00930549 /* mr_114px.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D1570E17181F9D00930549 /* mr_114px.png */; };
 		78D1571317181FC900930549 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D1571217181FC900930549 /* Default@2x.png */; };
 		78D1571517181FEC00930549 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D1571417181FEC00930549 /* Default-568h@2x.png */; };
+		78F1C6BD17254F25003B1732 /* himawari_marker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78F1C6BC17254F25003B1732 /* himawari_marker.jpg */; };
+		78F1C6C1172561D1003B1732 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F1C6C0172561D1003B1732 /* button2.png */; };
+		78F1C6C317256C68003B1732 /* tojiru.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F1C6C217256C68003B1732 /* tojiru.png */; };
 		B9091335135463B800339B18 /* ExampleApplicationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9091333135463B800339B18 /* ExampleApplicationViewController.xib */; };
 		B9091338135463C000339B18 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9091336135463C000339B18 /* MainWindow.xib */; };
 		B909133B1354641A00339B18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B90913391354641A00339B18 /* InfoPlist.strings */; };
@@ -88,11 +94,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7869CA77172676B800D2CD23 /* MainStoryBoard_iPhone5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryBoard_iPhone5.storyboard; path = JunaioPluginTemplate/JunaioPlugin/MainStoryBoard_iPhone5.storyboard; sourceTree = "<group>"; };
+		7869CA791726891600D2CD23 /* MainStoryBoard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryBoard_iPad.storyboard; sourceTree = "<group>"; };
+		7869CA7B17268E1F00D2CD23 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		78D1570C17181F9D00930549 /* app_title_splash_image2_640_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_title_splash_image2_640_960.png; sourceTree = "<group>"; };
 		78D1570D17181F9D00930549 /* kidouGamen_iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kidouGamen_iphone5.png; sourceTree = "<group>"; };
 		78D1570E17181F9D00930549 /* mr_114px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mr_114px.png; sourceTree = "<group>"; };
 		78D1571217181FC900930549 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../../../Default@2x.png"; sourceTree = "<group>"; };
 		78D1571417181FEC00930549 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../../../Default-568h@2x.png"; sourceTree = "<group>"; };
+		78F1C6BC17254F25003B1732 /* himawari_marker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = himawari_marker.jpg; path = ../../himawari_marker.jpg; sourceTree = "<group>"; };
+		78F1C6C0172561D1003B1732 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button2.png; path = ../../button2.png; sourceTree = "<group>"; };
+		78F1C6C217256C68003B1732 /* tojiru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tojiru.png; path = ../../tojiru.png; sourceTree = "<group>"; };
 		B9091334135463B800339B18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ExampleApplicationViewController.xib; sourceTree = "<group>"; };
 		B9091337135463C000339B18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = JunaioPluginTemplate/en.lproj/MainWindow.xib; sourceTree = SOURCE_ROOT; };
 		B909133A1354641A00339B18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -286,6 +298,8 @@
 		B99B652F132FA24200CEEBCC = {
 			isa = PBXGroup;
 			children = (
+				7869CA791726891600D2CD23 /* MainStoryBoard_iPad.storyboard */,
+				7869CA77172676B800D2CD23 /* MainStoryBoard_iPhone5.storyboard */,
 				78D1570C17181F9D00930549 /* app_title_splash_image2_640_960.png */,
 				78D1570D17181F9D00930549 /* kidouGamen_iphone5.png */,
 				78D1570E17181F9D00930549 /* mr_114px.png */,
@@ -337,6 +351,7 @@
 		B99B6548132FA24200CEEBCC /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				7869CA7B17268E1F00D2CD23 /* Storyboard.storyboard */,
 				B99B655F132FA24200CEEBCC /* ExampleApplicationViewController.mm */,
 				B99B655E132FA24200CEEBCC /* ExampleApplicationViewController.h */,
 				B9091333135463B800339B18 /* ExampleApplicationViewController.xib */,
@@ -363,6 +378,9 @@
 		B99B6569132FA3E700CEEBCC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				78F1C6C217256C68003B1732 /* tojiru.png */,
+				78F1C6C0172561D1003B1732 /* button2.png */,
+				78F1C6BC17254F25003B1732 /* himawari_marker.jpg */,
 				B93E707316724D2300891BC3 /* Default-Landscape.png */,
 				B93E707416724D2300891BC3 /* Default-Landscape@2x.png */,
 				B93E707516724D2300891BC3 /* Default-Portrait.png */,
@@ -484,6 +502,12 @@
 				78D1571117181F9D00930549 /* mr_114px.png in Resources */,
 				78D1571317181FC900930549 /* Default@2x.png in Resources */,
 				78D1571517181FEC00930549 /* Default-568h@2x.png in Resources */,
+				78F1C6BD17254F25003B1732 /* himawari_marker.jpg in Resources */,
+				78F1C6C1172561D1003B1732 /* button2.png in Resources */,
+				78F1C6C317256C68003B1732 /* tojiru.png in Resources */,
+				7869CA78172676B900D2CD23 /* MainStoryBoard_iPhone5.storyboard in Resources */,
+				7869CA7A1726891600D2CD23 /* MainStoryBoard_iPad.storyboard in Resources */,
+				7869CA7C17268E1F00D2CD23 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,7 +609,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "JunaioPluginTemplate/JunaioPluginTemplate-Prefix.pch";
 				INFOPLIST_FILE = "JunaioPluginTemplate/JunaioPluginTemplate-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -609,7 +633,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "JunaioPluginTemplate/JunaioPluginTemplate-Prefix.pch";
 				INFOPLIST_FILE = "JunaioPluginTemplate/JunaioPluginTemplate-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",

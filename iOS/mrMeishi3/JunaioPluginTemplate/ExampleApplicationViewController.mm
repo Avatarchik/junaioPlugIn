@@ -27,8 +27,26 @@
     [junaioPlugin release];
 }
 
+- (IBAction)onStartPushed2:(UIButton *)sender {
+    // Create a new ARViewController. All channel details and properties are defined in that class.
+    // see ARViewController.mm for the implementation
+    ARViewController* junaioPlugin = [[ARViewController alloc] init];
+    
+    // present the viewcontroller
+    [self presentModalViewController:junaioPlugin animated:YES];
+    
+    // release it, because it's retained as modalViewController
+    [junaioPlugin release];
+
+}
 
 
+- (void)dealloc {
+    [super dealloc];
+}
+- (void)viewDidUnload {
+    [super viewDidUnload];
+}
 
 
 
